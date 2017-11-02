@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="/styles/home.css">
 </head>
 <body>
-<aside>
-    <h4>Bloc Chat</h4>
+ <h4>Bloc Chat<span><button class="newRoom" type="button" ng-click="">New Room</button></span></h4>
     <ui-view></ui-view>
-</aside>
+
 
 <!-- FireBase -->
  <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
@@ -38,7 +37,8 @@
     <!-- AngularFire -->
        <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
 
-   
+   <!-- AngularUI Bootstrap -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
 
     <!-- Application Files -->
     <script src="/scripts/app.js"></script>
