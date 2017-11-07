@@ -10,3 +10,13 @@
     margin-left: 30px;
     padding: 10px;
 }
+.selectedRoom {
+    padding: 15px;
+}
+#messageContainer {
+    float: right;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 85%;
+    height: 100%;
+}

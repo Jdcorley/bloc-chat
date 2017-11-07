@@ -4,21 +4,21 @@ html, body {
     font-family: sans-serif;
 }
 #chatRoomTitle {
-    font-size: 50px;
-    opacity: 0.75;
-    padding: 10px;
+    font-size: 40px;
+    padding-top: 30px;
     margin: 0px;
     width: 380px;
     background-color:lightgrey; }
-body{
+body {
     background-color:white;
 }
-aside{
+aside {
     height: 100%;
-    width: 400px;
+    width: 15%;
     background-color: lightgrey;
+    float: left;
 }
-.newRoom{
+.newRoom {
     padding: 10px;
     margin-left: 30px;
 }

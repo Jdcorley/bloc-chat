@@ -9,7 +9,6 @@
         controller: 'ModalCtrl',
         controllerAs: 'modalCtrl', 
         bindToController: true
-
       }); 
       modalInstance.result.then (function(name){
         Room.add(name);
