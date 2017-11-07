@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     font-family: sans-serif;
 }
-h4{
+#chatRoomTitle {
     font-size: 50px;
     opacity: 0.75;
     padding: 10px;
