@@ -22,3 +22,14 @@ aside {
     padding: 10px;
     margin-left: 30px;
 }
+.selectedRoom {
+    font-size: xx-large;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    margin: 0px;
+    padding: 10px;
+}
+ul:nth-child(even){background-color:lightgray}

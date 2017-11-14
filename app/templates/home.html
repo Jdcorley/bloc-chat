@@ -1,15 +1,18 @@
 <!--Side Bar Container-->
 <aside>
+    <!--Title & New Room btn-->
         <h4 id="chatRoomTitle">Bloc Chat<span><button class="newRoom" ng-click="homeCtrl.open()">New Room</button></span></h4>
-        <section class="rooms" ng-repeat="room in homeCtrl.rooms">
-            <h2 ng-click="homeCtrl.roomSelected">{{room.$value}}</h2>
+        <!-- Rooms display -->
+        <section class="rooms" ng-repeat="room in homeCtrl.rooms" ng-click="setActiveRoom(room)">
+            <h2>{{room.$value}}</h2>
         </section>
 </aside>
+
 <!--Message list container-->
 <div id="messageContainer">
-    <h5 class="selectedRoom">Room "Selected Room Goes Here"</h5>
-        <ul class="messages">
-            <li>Here's a message</li>
-            <li>Here's a message</li>
+    <h5 class="selectedRoom">{{ activeRoom.$value }}</h5>
+        <ul class="messages" ng-repeat="message in messages">
+            <li > {{message.username}} <br> {{message.content}}  {{message.sentAt}} </li>    
+                  
         </ul>
  </div>
