@@ -1,0 +1,15 @@
+<div>
+    <div class="modal-header">
+        <div class="modal-title">Set a username</div>
+        <div class="modal-sub-title">This name will appear when you send messages</div>
+    </div>
+    <div class="modal-body">
+        Set a Username:
+        <form ng-submit="modalUsernameCtrl.ok()">
+            <input type="text" class="form-control" ng-model="modalUsernameCtrl.blocChatCurrentUser"/>
+        </form>    
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-success" ng-click="modalUsernameCtrl.ok()">Set Username</button>
+    </div>
+</div>
