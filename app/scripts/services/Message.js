@@ -8,8 +8,11 @@
           //filter messages by their room ID.
          return $firebaseArray(ref.orderByChild('roomId').equalTo(roomId));
         };
-       
 
+        Message.send = function(newMessage) {
+            // Send method logic
+        };
+        
         return Message;
         };
   

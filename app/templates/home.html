@@ -12,7 +12,10 @@
 <div id="messageContainer">
     <h5 class="selectedRoom">{{ activeRoom.$value }}</h5>
         <ul class="messages" ng-repeat="message in messages">
-            <li > {{message.username}} <br> {{message.content}}  {{message.sentAt}} </li>    
-                  
+            <li > {{message.username}} <br> {{message.content}}  {{message.sentAt}} </li>        
         </ul>
+        <div class="messageBar">
+            <input type="text" placeholder="Write message here..."> <span><button class="sendMessageBtn" type="submit">Send</button></span>
+
+        </div>
  </div>
