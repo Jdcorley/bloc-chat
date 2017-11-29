@@ -22,6 +22,7 @@
         $scope.activeRoom = room;
         $scope.messages = Message.getByRoomId(room.$id); //Message service to filter messages by room $id
       }
+      this.sendMessage = Message.send;
   
       this.rooms = Room.all;
       
