@@ -14,8 +14,6 @@
             });
    
       }
-<<<<<<< HEAD
-=======
       function BlocChatCookies($cookies, $uibModal) {
         var currentUser = $cookies.get('blocChatCurrentUser');
         console.log(currentUser);
@@ -33,7 +31,6 @@
               }) 
       }
     }
->>>>>>> checkpoint-5
 /* dependencies ui router, firebase, bootstrap; module blocChat; config */
   angular
     .module('blocChat', ['ui.router', 'firebase','ui.bootstrap','ngCookies'])
